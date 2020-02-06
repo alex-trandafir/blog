@@ -1,0 +1,32 @@
+baseURL = "https://alextrandafir.com"
+languageCode = "en-us"
+title = "alextrandafir blog"
+theme = "hugo-notepadium"
+enableRobotsTXT = true
+enableEmoji = true
+
+staticDir = ["static"]
+
+# Google Analytics
+googleAnalytics = "UA-156395742-1"
+
+#toml
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params.assets]
+css = ["css/custom.css"]
+js = ["js/custom.js"]
+
+[params]
+#logo = "/img/logo.png"
+slogan = "Tech and stuff"
+
+#seo
+enableRobotsTXT = true
+canonifyURLs = true
+

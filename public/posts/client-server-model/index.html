@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.62.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<meta name="description" content="About the client server model in simpler words">
+<meta name="author" content="Alex Trandafir">
+<meta content="client server model, tech terms in simple words" name="keywords">
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/frameapart.com\/blog\/"
+        },
+        "articleSection" : "posts",
+        "name" : "Client Server Model",
+        "headline" : "Client Server Model",
+        "description" : "About the client server model in simpler words",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2020",
+        "datePublished": "2020-01-28 22:20:55 \x2b0200 EET",
+        "dateModified" : "2020-01-28 22:20:55 \x2b0200 EET",
+        "url" : "https:\/\/frameapart.com\/blog\/posts\/client-server-model\/",
+        "wordCount" : "234",
+        "keywords" : [ "Web technologies","Blog" ]
+    }
+    </script><title>Client Server Model&nbsp;&ndash;&nbsp;alextrandafir blog</title><link href="https://unpkg.com/octomments/build/ocs-ui.min.css" rel="stylesheet"><style>
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+   
+  position: fixed;
+   
+  z-index: 1;
+   
+  padding-top: 100px;
+   
+  left: 0;
+  top: 0;
+  width: 100%;
+   
+  height: 100%;
+   
+  overflow: auto;
+   
+  background-color: rgb(0, 0, 0);
+   
+  background-color: rgba(0, 0, 0, 0.9);
+   
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+</style><link rel="stylesheet" href="/blog/css/core.min.46197bbbe4f280451faf36de58a093308f97091d8c8473c649542b64a4b684f4f8b8ad0161f7ed63d93623e257ea6a70.css" integrity="sha384-Rhl7u&#43;TygEUfrzbeWKCTMI&#43;XCR2MhHPGSVQrZKS2hPT4uK0BYfftY9k2I&#43;JX6mpw"><body>
+    <div class="base-body"><section id="header" class="site header max-body-width">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/blog/"><span class="site name">alextrandafir blog</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav">
+    <a style="background-color: rgba(12, 242, 143, 0.2)" class="nav item" href="/blog/posts/tech-laymans/">Simple tech</a>
+    <a class="nav item" href="/blog/posts/about/">About</a><a class="nav item" href="/blog/categories/">Categories</a><a class="nav item" href="/blog/tags/">Tags</a></nav></div></span></div></section><div id="content" class="max-body-width"><section class="article header">
+    <h1 class="article title">Client Server Model</h1><p class="article date">2020-01-28</p></section><article class="article markdown-body"><!-- wp:paragraph -->
+<p>An analogy might do the trick: Imagine going to the bakery in order to buy a bread. You'll have a client (you) buying (requesting?) the bread and a seller (server) giving you the bread. The internet is basically composed of gazillions of such transactions, each client requesting different types of bread and each bakery having its own recipe. </p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>The trick here is that sometimes the baker would also like to buy some bread. Sometimes from other bakeries, but sometimes even from himself. In the diagram below you'll notice that I've marked server as a client as well. This can get tricky once you go into more complex models, the thing to remember is that a baker can also be a client once it buys something else. Server sells, client buys. Sellers also buy.</p>
+<!-- /wp:paragraph -->
+<span class="image-container"><span class="link" >
+        
+        <img class="img myImages" src="https://res.cloudinary.com/livebashco/image/upload/v1580239386/Screenshot_2020-01-28_at_21.22.27_hiqvyj.png"/>
+    
+    </span><span class="caption">
+            <span class="title">Server client examples</span class="image-container-caption">
+        </span>
+</span>
+
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+<!-- wp:paragraph -->
+<p>The most basic example would be trying to Google something. You'll open up your browser (the client) and hit "www.google.com" in the address bar. The browser will resolve the address of "google.com" to a specific address (IP) and go to that address in order to give you the information you asked for (in this case being the classical google.com homepage). Google's servers will respond with the requested information and your browser will be able to interpret it and display it nicely.</p>
+<!-- /wp:paragraph -->
+<!-- wp:embed {"url":"https://res.cloudinary.com/livebashco/image/upload/v1580240458/Screenshot_2020-01-28_at_21.40.51_i00wje.png","type":"rich","providerNameSlug":""} -->
+<figure class="wp-block-embed is-type-rich"><div class="wp-block-embed__wrapper">
+<img src ="https://res.cloudinary.com/livebashco/image/upload/v1580240458/Screenshot_2020-01-28_at_21.40.51_i00wje.png"/>
+</div></figure>
+<!-- /wp:embed -->
+
+<div class="well">
+  <h4>Article Series</h4>
+  <ol>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <li>
+          
+            <a href="https://frameapart.com/blog/posts/tech-laymans/">Tech in Layman&#39;s terms</a>
+          
+        </li>
+      
+    
+      
+        <li>
+          
+            Client Server Model
+          
+        </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <li>
+          
+            <a href="https://frameapart.com/blog/posts/ssr-vs-spa/">Server sider rendered vs Single Page Application</a>
+          
+        </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </ol>
+</div>
+</article>
+
+<section class="article labels"><a class="article category" href=/blog/categories/tech-in-laymans/><span class="hashtag">#</span>Tech in Laymans</a><a class="article tag" href=/blog/tags/web-technologies/><span class="hashtag">#</span>Web technologies</a></section><section class="article navigation">
+        <p>Next: <a class="link" href="/blog/posts/ssr-vs-spa/"><span class="li"></span>Server sider rendered vs Single Page Application</a></p>
+        
+        <p>Previous: <a class="link" href="/blog/posts/tech-laymans/"><span class="li"></span>Tech in Layman's terms</a class="link">
+        </p>
+        </section></div><section id="footer" class="footer max-body-width"><div class="footer-wrap">
+    <p class="copyright">alextrandafir blog</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><script>
+
+
+
+
+  
+  var modal = document.getElementById('myModal');
+  
+  var images = document.getElementsByClassName('myImages');
+  
+  var modalImg = document.getElementById("img01");
+  
+  var captionText = document.getElementById("caption");
+
+  
+  for (var i = 0; i < images.length; i++) {
+    var img = images[i];
+    
+    img.onclick = function(evt) {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+      console.log("uupu");
+    }
+  }
+
+  var span = document.getElementsByClassName("close")[0];
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+
+</script></div>
+</body>
+
+</html>

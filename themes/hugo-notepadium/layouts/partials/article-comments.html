@@ -1,0 +1,28 @@
+{{- if gt (len site.DisqusShortname) 0 -}}
+    {{- if or (eq .Params.comments true) (and (ne .Params.comments false) (eq site.Params.comments.enable true)) -}}
+        <section class="article discussion">
+            {{- template "_internal/disqus.html" . -}}
+        </section>
+    {{- end -}}
+{{- end -}}
+
+{{- if (eq .Params.comments true) -}}
+
+<section class="article discussion"></section>
+
+    <h2>Comments</h2> you need a <a href="https://github.com/">github</a> account to comment
+    <div id="comments"></div>
+
+    <script src="https://unpkg.com/octomments/build/ocs.min.js"></script>
+    <script>
+    Octomments({
+        github: {
+        owner: 'alex-trandafir',
+        repo: 'blog',
+        },
+        number: {{ .Params.issueId }},
+        renderer: [OctommentsRenderer, '#comments']
+    }).init();
+    </script>
+</section>
+{{- end -}}

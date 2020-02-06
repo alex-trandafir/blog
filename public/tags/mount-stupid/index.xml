@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mount stupid on alextrandafir blog</title>
+    <link>/blog/tags/mount-stupid/</link>
+    <description>Recent content in Mount stupid on alextrandafir blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jan 2020 21:14:46 +0200</lastBuildDate>
+    
+        <atom:link href="/blog/tags/mount-stupid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make a fool out of yourself!</title>
+      <link>/blog/posts/my-first-post/</link>
+      <pubDate>Thu, 16 Jan 2020 21:14:46 +0200</pubDate>
+      
+      <guid>/blog/posts/my-first-post/</guid>
+      <description>This is the thing that has always stood in the way for me. I&#39;ve always looked at people I admired and questioned myself: why can&#39;t I do that? They seem so professional and confident. I would look like a fool compared to them. Then I started realising that, if I were to look back at that person (s)he was, at some point, a beginner. Any subject will eventually get complicated once you deep dive into it.</description>
+    </item>
+    
+  </channel>
+</rss>

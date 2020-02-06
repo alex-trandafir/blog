@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.62.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<meta name="description" content="A comparison between server side rendering and single page applications">
+<meta name="author" content="Alex Trandafir">
+<meta content="single page applications, single page application, server side rendering, web technologies, tech terms in simple words" name="keywords">
+
+
+<script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/frameapart.com\/blog\/"
+        },
+        "articleSection" : "posts",
+        "name" : "Server sider rendered vs Single Page Application",
+        "headline" : "Server sider rendered vs Single Page Application",
+        "description" : "A comparison between server side rendering and single page applications",
+        "inLanguage" : "en-US",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2020",
+        "datePublished": "2020-02-05 23:43:11 \x2b0200 EET",
+        "dateModified" : "2020-02-05 23:43:11 \x2b0200 EET",
+        "url" : "https:\/\/frameapart.com\/blog\/posts\/ssr-vs-spa\/",
+        "wordCount" : "672",
+        "keywords" : [ "single page application","server side rendering","web technologies","Blog" ]
+    }
+    </script><title>Server sider rendered vs Single Page Application&nbsp;&ndash;&nbsp;alextrandafir blog</title><link href="https://unpkg.com/octomments/build/ocs-ui.min.css" rel="stylesheet"><style>
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+   
+  position: fixed;
+   
+  z-index: 1;
+   
+  padding-top: 100px;
+   
+  left: 0;
+  top: 0;
+  width: 100%;
+   
+  height: 100%;
+   
+  overflow: auto;
+   
+  background-color: rgb(0, 0, 0);
+   
+  background-color: rgba(0, 0, 0, 0.9);
+   
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+</style><link rel="stylesheet" href="/blog/css/core.min.46197bbbe4f280451faf36de58a093308f97091d8c8473c649542b64a4b684f4f8b8ad0161f7ed63d93623e257ea6a70.css" integrity="sha384-Rhl7u&#43;TygEUfrzbeWKCTMI&#43;XCR2MhHPGSVQrZKS2hPT4uK0BYfftY9k2I&#43;JX6mpw"><body>
+    <div class="base-body"><section id="header" class="site header max-body-width">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/blog/"><span class="site name">alextrandafir blog</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav">
+    <a style="background-color: rgba(12, 242, 143, 0.2)" class="nav item" href="/blog/posts/tech-laymans/">Simple tech</a>
+    <a class="nav item" href="/blog/posts/about/">About</a><a class="nav item" href="/blog/categories/">Categories</a><a class="nav item" href="/blog/tags/">Tags</a></nav></div></span></div></section><div id="content" class="max-body-width"><section class="article header">
+    <h1 class="article title">Server sider rendered vs Single Page Application</h1><p class="article date">2020-02-05</p></section><article class="article markdown-body"><!-- wp:paragraph -->
+<p>Most modern websites are now "single page application" (<a href="https://en.wikipedia.org/wiki/Single-page_application">SPA</a>). That means they are "rendered" once by the client and then only updated when something is modified. </p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>The biggest impact of performance when loading a website is the static data that is delivered with each website: html, css, images, fonts. In the SPA model, these static resources are only sent once and then, with each new information the client gets from the server, it adjusts the html accordingly. </p>
+<!-- /wp:paragraph -->
+<span class="image-container"><span class="link" >
+        
+        <img class="img myImages" src="https://res.cloudinary.com/livebashco/image/upload/v1580244341/excalidraw-2020128181339_1_y1vycx.png"/>
+    
+    </span><span class="caption">
+            <span class="title">Server Side Rendered vs Single Page Application</span class="image-container-caption">
+        </span>
+</span>
+
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+<!-- wp:heading -->
+<h2>Server side rendering</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>This concept has lost traction in the past 5-6 years, but technology tends to repeat itself (<a href="https://alligator.io/react/server-side-rendering/">React SSR</a>). Server side rendering means that the whole information is generated on the server and sent to the client "as is". The client will not have to run any kind of scripts, it will just "show" the information from the server as it received it. </p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>By definition an "application" is a piece of software that has an interface that someone can interact with. In the case of server side rendered you can think as the "application" lives only on the server and the client (usually a browser) is only used to display the interface. </p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Server side rendering has a great advantage SEO-wise. Crawlers will be able to get more information from server side rendered websites due to the fact that all data is provided by the server, thus not being dependent on actions performed by a user. </p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Let's take an example to better understand this. Imagine we  have a list of Frequently Asked Questions. When the user clicks one of those questions a section will appear below the question with the answer to the question. </p>
+<!-- /wp:paragraph -->
+<span class="image-container"><span class="link" >
+        
+        <img class="img myImages" src="https://res.cloudinary.com/livebashco/image/upload/v1580937518/excalidraw-2020128181339_xq8xdx.png"/>
+    
+    </span><span class="caption">
+            <span class="title">FAQs mockup</span class="image-container-caption">
+        </span>
+</span>
+
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+<!-- wp:paragraph -->
+<p>In the example above the server will return the whole web page in the case of server side rendering. That includes: questions header, question 1, question 2,  question 3, section of question 1, css, javascript, fonts. Due to <a href="https://www.codebyamir.com/blog/a-web-developers-guide-to-browser-caching">browser caching</a> some of these resources will not actually be retrieved again from the server, thus saving some load time and some web traffic.  </p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2>Single page applications</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>You may have noticed I'm putting these two concepts on the opposite site of the spectrum. Yet only one has the word "application" in it. I mentioned before that the application "lives" on the server in the case of server side rendered. Single page applications use a different approach: the application lives both on the client and on the server.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>When first loading the application the server will provide more than just an html that needs to be displayed. It will also provide an "application" that will be run on the browser. This makes the initial load a lot heavier but the following actions are optimised to use as little resources as possible. The most common way of accomplishing this in complex applications (that need a backend service) is through <a href="https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/">REST APIs</a>: client submits a request and the server responds with a thin data structure (usually <a href="https://www.w3schools.com/js/js_json_syntax.asp">json</a>). No html, css, javascript files are exchanged in the request, thus making things smoother.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Going back at the above example, after the client submits the request (clicks the first question) the server will only respond with the answer to the request, something like: </p>
+<!-- /wp:paragraph -->
+<!-- wp:syntaxhighlighter/code -->
+<pre class="wp-block-syntaxhighlighter-code">{
+   "question":{
+      "title":"How to do something",
+      "id":1,
+      "article":"just start doing it Lorem ipsum dolor sit amet"
+   }
+}</pre>
+<!-- /wp:syntaxhighlighter/code -->
+<!-- wp:paragraph -->
+<p>The application will then parse the response and include it in the current page dynamically.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2>Implications</h2>
+<!-- /wp:heading -->
+<ul>
+<li>Search engine optimisation (SEO)</li>
+<li>Load times</li>
+<li>Development knowledge (frontend/backend)</li>
+<li>Infrastructure</li>
+<li>And more :)</li>
+</ul>
+<h2 id="anything-else">Anything else?</h2>
+<p>There are actually a lot of other subjects that derive from this: dynamic content (different based on client - like facebook),  static content (same for everyone, like a landing page or this blog), lazy loading for resources (pulling dependencies only when they are needed thus minimizing initial load time for SPAs), server caching (all kinds of headers that tell the browser what to cache and for how long) etc.</p>
+
+<div class="well">
+  <h4>Article Series</h4>
+  <ol>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <li>
+          
+            <a href="https://frameapart.com/blog/posts/tech-laymans/">Tech in Layman&#39;s terms</a>
+          
+        </li>
+      
+    
+      
+        <li>
+          
+            <a href="https://frameapart.com/blog/posts/client-server-model/">Client Server Model</a>
+          
+        </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <li>
+          
+            Server sider rendered vs Single Page Application
+          
+        </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </ol>
+</div>
+</article>
+
+<section class="article labels"><a class="article category" href=/blog/categories/tech-in-laymans/><span class="hashtag">#</span>Tech in Laymans</a><a class="article tag" href=/blog/tags/single-page-application/><span class="hashtag">#</span>single page application</a><a class="article tag" href=/blog/tags/server-side-rendering/><span class="hashtag">#</span>server side rendering</a><a class="article tag" href=/blog/tags/web-technologies/><span class="hashtag">#</span>web technologies</a></section><section class="article navigation">
+        <p>Previous: <a class="link" href="/blog/posts/client-server-model/"><span class="li"></span>Client Server Model</a class="link">
+        </p>
+        </section></div><section id="footer" class="footer max-body-width"><div class="footer-wrap">
+    <p class="copyright">alextrandafir blog</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><script>
+
+
+
+
+  
+  var modal = document.getElementById('myModal');
+  
+  var images = document.getElementsByClassName('myImages');
+  
+  var modalImg = document.getElementById("img01");
+  
+  var captionText = document.getElementById("caption");
+
+  
+  for (var i = 0; i < images.length; i++) {
+    var img = images[i];
+    
+    img.onclick = function(evt) {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+      console.log("uupu");
+    }
+  }
+
+  var span = document.getElementsByClassName("close")[0];
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+
+</script></div>
+</body>
+
+</html>

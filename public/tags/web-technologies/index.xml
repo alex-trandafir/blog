@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Technologies on alextrandafir blog</title>
+    <link>/blog/tags/web-technologies/</link>
+    <description>Recent content in Web Technologies on alextrandafir blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2020 23:43:11 +0200</lastBuildDate>
+    
+        <atom:link href="/blog/tags/web-technologies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Server sider rendered vs Single Page Application</title>
+      <link>/blog/posts/ssr-vs-spa/</link>
+      <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
+      
+      <guid>/blog/posts/ssr-vs-spa/</guid>
+      <description>Most modern websites are now &#34;single page application&#34; (SPA). That means they are &#34;rendered&#34; once by the client and then only updated when something is modified. The biggest impact of performance when loading a website is the static data that is delivered with each website: html, css, images, fonts. In the SPA model, these static resources are only sent once and then, with each new information the client gets from the server, it adjusts the html accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Client Server Model</title>
+      <link>/blog/posts/client-server-model/</link>
+      <pubDate>Tue, 28 Jan 2020 22:20:55 +0200</pubDate>
+      
+      <guid>/blog/posts/client-server-model/</guid>
+      <description>An analogy might do the trick: Imagine going to the bakery in order to buy a bread. You&#39;ll have a client (you) buying (requesting?) the bread and a seller (server) giving you the bread. The internet is basically composed of gazillions of such transactions, each client requesting different types of bread and each bakery having its own recipe. The trick here is that sometimes the baker would also like to buy some bread.</description>
+    </item>
+    
+    <item>
+      <title>Tech in Layman&#39;s terms</title>
+      <link>/blog/posts/tech-laymans/</link>
+      <pubDate>Tue, 28 Jan 2020 22:13:44 +0200</pubDate>
+      
+      <guid>/blog/posts/tech-laymans/</guid>
+      <description>I&#39;ve never realised it, but getting into the field of IT, as someone with little to no background, can be extremely frustrating. Most articles out there are too technical and it can get scary really fast. What I&#39;m hoping with this thread is to share some knowledge in Layman&#39;s terms. This all started with my wife taking part in a software development bootcamp. I was expecting her to have knowledge about stuff that comes completely natural to me, but realised it&#39;s only so because I&#39;ve been passionate (and in the field) for a long time.</description>
+    </item>
+    
+  </channel>
+</rss>

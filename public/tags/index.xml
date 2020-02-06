@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on alextrandafir blog</title>
+    <link>/blog/tags/</link>
+    <description>Recent content in Tags on alextrandafir blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2020 23:43:11 +0200</lastBuildDate>
+    
+        <atom:link href="/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>server side rendering</title>
+      <link>/blog/tags/server-side-rendering/</link>
+      <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
+      
+      <guid>/blog/tags/server-side-rendering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>single page application</title>
+      <link>/blog/tags/single-page-application/</link>
+      <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
+      
+      <guid>/blog/tags/single-page-application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Technologies</title>
+      <link>/blog/tags/web-technologies/</link>
+      <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
+      
+      <guid>/blog/tags/web-technologies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simple tech</title>
+      <link>/blog/tags/simple-tech/</link>
+      <pubDate>Tue, 28 Jan 2020 22:13:44 +0200</pubDate>
+      
+      <guid>/blog/tags/simple-tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traffic</title>
+      <link>/blog/tags/traffic/</link>
+      <pubDate>Sun, 26 Jan 2020 22:36:53 +0200</pubDate>
+      
+      <guid>/blog/tags/traffic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IOS development</title>
+      <link>/blog/tags/ios-development/</link>
+      <pubDate>Fri, 24 Jan 2020 17:44:57 +0200</pubDate>
+      
+      <guid>/blog/tags/ios-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>/blog/tags/swift/</link>
+      <pubDate>Fri, 24 Jan 2020 17:44:57 +0200</pubDate>
+      
+      <guid>/blog/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xcode first steps</title>
+      <link>/blog/tags/xcode-first-steps/</link>
+      <pubDate>Fri, 24 Jan 2020 17:44:57 +0200</pubDate>
+      
+      <guid>/blog/tags/xcode-first-steps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go live</title>
+      <link>/blog/tags/go-live/</link>
+      <pubDate>Sat, 18 Jan 2020 09:47:58 +0200</pubDate>
+      
+      <guid>/blog/tags/go-live/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup vs corporate</title>
+      <link>/blog/tags/startup-vs-corporate/</link>
+      <pubDate>Sat, 18 Jan 2020 09:47:58 +0200</pubDate>
+      
+      <guid>/blog/tags/startup-vs-corporate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mount stupid</title>
+      <link>/blog/tags/mount-stupid/</link>
+      <pubDate>Thu, 16 Jan 2020 21:14:46 +0200</pubDate>
+      
+      <guid>/blog/tags/mount-stupid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+
+<h3>See Also</h3>
+<ul>
+	
+	{{ range where .Site.Pages ".Params.category" "intersect" .Params.category }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>alextrandafir blog</title>
+    <link>/blog/</link>
+    <description>Recent content on alextrandafir blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2020 23:43:11 +0200</lastBuildDate>
+    
+        <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>/blog/posts/</link>
+      <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
+      
+      <guid>/blog/posts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

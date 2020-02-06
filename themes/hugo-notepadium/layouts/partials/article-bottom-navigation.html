@@ -1,0 +1,17 @@
+{{- if and (not (eq .Params.single true)) (or .PrevInSection .NextInSection) -}}
+<section class="article navigation">
+    {{- with .NextInSection -}}
+        <!-- {{- if (not .Params.unlisted) -}} -->
+        <p>Next: <a class="link" href="{{- .RelPermalink -}}"><span class="li"></span>{{- .Title | safeHTML -}}</a></p>
+        <!-- {{- end -}} -->
+    {{- end -}}
+    
+    {{- with .PrevInSection -}}
+        <!-- {{- if (not .Params.unlisted) -}} -->
+        <p>Previous: <a class="link" href="{{- .RelPermalink -}}"><span class="li"></span>{{- .Title | safeHTML -}}</a class="link">
+        </p>
+        <!-- {{- end -}} -->
+    {{- end -}}
+    
+</section>
+{{- end -}}
