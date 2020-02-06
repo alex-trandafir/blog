@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>single page application on alextrandafir blog</title>
-    <link>/blog/tags/single-page-application/</link>
+    <link>/tags/single-page-application/</link>
     <description>Recent content in single page application on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Feb 2020 23:43:11 +0200</lastBuildDate>
     
-        <atom:link href="/blog/tags/single-page-application/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/single-page-application/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Server sider rendered vs Single Page Application</title>
-      <link>/blog/posts/ssr-vs-spa/</link>
+      <link>/posts/ssr-vs-spa/</link>
       <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
       
-      <guid>/blog/posts/ssr-vs-spa/</guid>
+      <guid>/posts/ssr-vs-spa/</guid>
       <description>Most modern websites are now &#34;single page application&#34; (SPA). That means they are &#34;rendered&#34; once by the client and then only updated when something is modified. The biggest impact of performance when loading a website is the static data that is delivered with each website: html, css, images, fonts. In the SPA model, these static resources are only sent once and then, with each new information the client gets from the server, it adjusts the html accordingly.</description>
     </item>
     

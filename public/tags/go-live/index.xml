@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go live on alextrandafir blog</title>
-    <link>/blog/tags/go-live/</link>
+    <link>/tags/go-live/</link>
     <description>Recent content in Go live on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2020 09:47:58 +0200</lastBuildDate>
     
-        <atom:link href="/blog/tags/go-live/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/go-live/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fear of Production</title>
-      <link>/blog/posts/fear-of-production/</link>
+      <link>/posts/fear-of-production/</link>
       <pubDate>Sat, 18 Jan 2020 09:47:58 +0200</pubDate>
       
-      <guid>/blog/posts/fear-of-production/</guid>
+      <guid>/posts/fear-of-production/</guid>
       <description>I&#39;ve stumbled upon this two times with personal projects and numerous times at work. It&#39;s a weird feeling that, even though you know you&#39;ve done all the right things, keeps you from going into production. I can&#39;t really talk much about work related stuff. However I can say that, even though we do all our testing within our teams, even though we have entire departments responsible with regression testing, even though we have very good incident management procedures, very good customer care services, very good infrastructure department, I still sometimes had a weird vibe regarding going into production.</description>
     </item>
     

@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on alextrandafir blog</title>
-    <link>/blog/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Feb 2020 23:43:11 +0200</lastBuildDate>
     
-        <atom:link href="/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tech in Laymans</title>
-      <link>/blog/categories/tech-in-laymans/</link>
+      <link>/categories/tech-in-laymans/</link>
       <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
       
-      <guid>/blog/categories/tech-in-laymans/</guid>
+      <guid>/categories/tech-in-laymans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bucharest</title>
-      <link>/blog/categories/bucharest/</link>
+      <link>/categories/bucharest/</link>
       <pubDate>Sun, 26 Jan 2020 22:36:53 +0200</pubDate>
       
-      <guid>/blog/categories/bucharest/</guid>
+      <guid>/categories/bucharest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>/blog/categories/personal/</link>
+      <link>/categories/personal/</link>
       <pubDate>Sun, 26 Jan 2020 20:31:58 +0200</pubDate>
       
-      <guid>/blog/categories/personal/</guid>
+      <guid>/categories/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>/blog/categories/development/</link>
+      <link>/categories/development/</link>
       <pubDate>Fri, 24 Jan 2020 17:44:57 +0200</pubDate>
       
-      <guid>/blog/categories/development/</guid>
+      <guid>/categories/development/</guid>
       <description></description>
     </item>
     

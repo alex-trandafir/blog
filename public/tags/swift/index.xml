@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on alextrandafir blog</title>
-    <link>/blog/tags/swift/</link>
+    <link>/tags/swift/</link>
     <description>Recent content in Swift on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jan 2020 17:44:57 +0200</lastBuildDate>
     
-        <atom:link href="/blog/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Writing My First Swift App</title>
-      <link>/blog/posts/writing-my-first-swift-app/</link>
+      <link>/posts/writing-my-first-swift-app/</link>
       <pubDate>Fri, 24 Jan 2020 17:44:57 +0200</pubDate>
       
-      <guid>/blog/posts/writing-my-first-swift-app/</guid>
+      <guid>/posts/writing-my-first-swift-app/</guid>
       <description>This post is not intended to be a tutorial on how to write your first app. It&#39;s merely my experience and maybe a general guideline on what to expect if you&#39;re trying to do this for the first time. If you already wrote an IOS app this post is probably not for you. I&#39;ve always considered that, in order to become better at something, you need to explore the surroundings. IT has a lot of sub-fields and, for a developer, the simplest way to explore is to play around with a new language.</description>
     </item>
     

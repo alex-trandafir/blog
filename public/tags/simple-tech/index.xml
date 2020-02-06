@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simple tech on alextrandafir blog</title>
-    <link>/blog/tags/simple-tech/</link>
+    <link>/tags/simple-tech/</link>
     <description>Recent content in Simple tech on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Jan 2020 22:13:44 +0200</lastBuildDate>
     
-        <atom:link href="/blog/tags/simple-tech/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/simple-tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tech in Layman&#39;s terms</title>
-      <link>/blog/posts/tech-laymans/</link>
+      <link>/posts/tech-laymans/</link>
       <pubDate>Tue, 28 Jan 2020 22:13:44 +0200</pubDate>
       
-      <guid>/blog/posts/tech-laymans/</guid>
+      <guid>/posts/tech-laymans/</guid>
       <description>I&#39;ve never realised it, but getting into the field of IT, as someone with little to no background, can be extremely frustrating. Most articles out there are too technical and it can get scary really fast. What I&#39;m hoping with this thread is to share some knowledge in Layman&#39;s terms. This all started with my wife taking part in a software development bootcamp. I was expecting her to have knowledge about stuff that comes completely natural to me, but realised it&#39;s only so because I&#39;ve been passionate (and in the field) for a long time.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Traffic on alextrandafir blog</title>
-    <link>/blog/tags/traffic/</link>
+    <link>/tags/traffic/</link>
     <description>Recent content in Traffic on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2020 22:36:53 +0200</lastBuildDate>
     
-        <atom:link href="/blog/tags/traffic/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/traffic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why Is Traffic So Horrible in Bucharest</title>
-      <link>/blog/posts/why-is-traffic-so-horrible-in-bucharest/</link>
+      <link>/posts/why-is-traffic-so-horrible-in-bucharest/</link>
       <pubDate>Sun, 26 Jan 2020 22:36:53 +0200</pubDate>
       
-      <guid>/blog/posts/why-is-traffic-so-horrible-in-bucharest/</guid>
+      <guid>/posts/why-is-traffic-so-horrible-in-bucharest/</guid>
       <description>One of the main problems in Bucharest is traffic. The city has recently been categorized as the most congested city in the European Union. However, if we were to compare it with other capitals of Europe, it&#39;s a pretty small city. So how did we get here?
 Communism legacy One of the most overlooked things when analyzing/judging all post communist countries is the footprint communism has on a society. It&#39;s not just about the ideology, it&#39;s about a way of doing things.</description>
     </item>

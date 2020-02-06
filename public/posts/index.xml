@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on alextrandafir blog</title>
-    <link>/blog/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on alextrandafir blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Feb 2020 23:43:11 +0200</lastBuildDate>
     
-        <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Server sider rendered vs Single Page Application</title>
-      <link>/blog/posts/ssr-vs-spa/</link>
+      <link>/posts/ssr-vs-spa/</link>
       <pubDate>Wed, 05 Feb 2020 23:43:11 +0200</pubDate>
       
-      <guid>/blog/posts/ssr-vs-spa/</guid>
+      <guid>/posts/ssr-vs-spa/</guid>
       <description>Most modern websites are now &#34;single page application&#34; (SPA). That means they are &#34;rendered&#34; once by the client and then only updated when something is modified. The biggest impact of performance when loading a website is the static data that is delivered with each website: html, css, images, fonts. In the SPA model, these static resources are only sent once and then, with each new information the client gets from the server, it adjusts the html accordingly.</description>
     </item>
     
     <item>
       <title>Client Server Model</title>
-      <link>/blog/posts/client-server-model/</link>
+      <link>/posts/client-server-model/</link>
       <pubDate>Tue, 28 Jan 2020 22:20:55 +0200</pubDate>
       
-      <guid>/blog/posts/client-server-model/</guid>
+      <guid>/posts/client-server-model/</guid>
       <description>An analogy might do the trick: Imagine going to the bakery in order to buy a bread. You&#39;ll have a client (you) buying (requesting?) the bread and a seller (server) giving you the bread. The internet is basically composed of gazillions of such transactions, each client requesting different types of bread and each bakery having its own recipe. The trick here is that sometimes the baker would also like to buy some bread.</description>
     </item>
     
     <item>
       <title>Tech in Layman&#39;s terms</title>
-      <link>/blog/posts/tech-laymans/</link>
+      <link>/posts/tech-laymans/</link>
       <pubDate>Tue, 28 Jan 2020 22:13:44 +0200</pubDate>
       
-      <guid>/blog/posts/tech-laymans/</guid>
+      <guid>/posts/tech-laymans/</guid>
       <description>I&#39;ve never realised it, but getting into the field of IT, as someone with little to no background, can be extremely frustrating. Most articles out there are too technical and it can get scary really fast. What I&#39;m hoping with this thread is to share some knowledge in Layman&#39;s terms. This all started with my wife taking part in a software development bootcamp. I was expecting her to have knowledge about stuff that comes completely natural to me, but realised it&#39;s only so because I&#39;ve been passionate (and in the field) for a long time.</description>
     </item>
     
     <item>
       <title>Why Is Traffic So Horrible in Bucharest</title>
-      <link>/blog/posts/why-is-traffic-so-horrible-in-bucharest/</link>
+      <link>/posts/why-is-traffic-so-horrible-in-bucharest/</link>
       <pubDate>Sun, 26 Jan 2020 22:36:53 +0200</pubDate>
       
-      <guid>/blog/posts/why-is-traffic-so-horrible-in-bucharest/</guid>
+      <guid>/posts/why-is-traffic-so-horrible-in-bucharest/</guid>
       <description>One of the main problems in Bucharest is traffic. The city has recently been categorized as the most congested city in the European Union. However, if we were to compare it with other capitals of Europe, it&#39;s a pretty small city. So how did we get here?
 Communism legacy One of the most overlooked things when analyzing/judging all post communist countries is the footprint communism has on a society. It&#39;s not just about the ideology, it&#39;s about a way of doing things.</description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>/blog/posts/about/</link>
+      <link>/posts/about/</link>
       <pubDate>Sun, 26 Jan 2020 20:31:58 +0200</pubDate>
       
-      <guid>/blog/posts/about/</guid>
+      <guid>/posts/about/</guid>
       <description>Alexandru Trandafir -- I&#39;m a software developer based in Bucharest, Romania.
 I started this &amp;ldquo;blog&amp;rdquo; with no exact plan on where to go with it. I plan writing not just about development, but about any subject that interests me.
 You can find me via email or on linkedin
@@ -63,28 +63,28 @@ Tools I use for this blog:  https://gohugo.io/ - this blog is powered by Hugo ht
     
     <item>
       <title>Writing My First Swift App</title>
-      <link>/blog/posts/writing-my-first-swift-app/</link>
+      <link>/posts/writing-my-first-swift-app/</link>
       <pubDate>Fri, 24 Jan 2020 17:44:57 +0200</pubDate>
       
-      <guid>/blog/posts/writing-my-first-swift-app/</guid>
+      <guid>/posts/writing-my-first-swift-app/</guid>
       <description>This post is not intended to be a tutorial on how to write your first app. It&#39;s merely my experience and maybe a general guideline on what to expect if you&#39;re trying to do this for the first time. If you already wrote an IOS app this post is probably not for you. I&#39;ve always considered that, in order to become better at something, you need to explore the surroundings. IT has a lot of sub-fields and, for a developer, the simplest way to explore is to play around with a new language.</description>
     </item>
     
     <item>
       <title>Fear of Production</title>
-      <link>/blog/posts/fear-of-production/</link>
+      <link>/posts/fear-of-production/</link>
       <pubDate>Sat, 18 Jan 2020 09:47:58 +0200</pubDate>
       
-      <guid>/blog/posts/fear-of-production/</guid>
+      <guid>/posts/fear-of-production/</guid>
       <description>I&#39;ve stumbled upon this two times with personal projects and numerous times at work. It&#39;s a weird feeling that, even though you know you&#39;ve done all the right things, keeps you from going into production. I can&#39;t really talk much about work related stuff. However I can say that, even though we do all our testing within our teams, even though we have entire departments responsible with regression testing, even though we have very good incident management procedures, very good customer care services, very good infrastructure department, I still sometimes had a weird vibe regarding going into production.</description>
     </item>
     
     <item>
       <title>Make a fool out of yourself!</title>
-      <link>/blog/posts/my-first-post/</link>
+      <link>/posts/my-first-post/</link>
       <pubDate>Thu, 16 Jan 2020 21:14:46 +0200</pubDate>
       
-      <guid>/blog/posts/my-first-post/</guid>
+      <guid>/posts/my-first-post/</guid>
       <description>This is the thing that has always stood in the way for me. I&#39;ve always looked at people I admired and questioned myself: why can&#39;t I do that? They seem so professional and confident. I would look like a fool compared to them. Then I started realising that, if I were to look back at that person (s)he was, at some point, a beginner. Any subject will eventually get complicated once you deep dive into it.</description>
     </item>
     
