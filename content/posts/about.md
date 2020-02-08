@@ -30,6 +30,8 @@ Opinions are my own.
 ## Tools I use for this blog: 
 
 * https://gohugo.io/ - this blog is powered by Hugo
+* https://www.netlify.com/ - hosted by netlify CDN
+* http://github.com/ - versioning
 * https://excalidraw.com/ - "hand" drawn diagrams
 * http://wordpress.com/ - for keeping my drafts 
 * https://code.visualstudio.com/ - Microsoft doing a good job for once :) 
