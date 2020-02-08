@@ -3,4 +3,4 @@ Disallow:
 Disallow: /css
 Disallow: /js
 Disallow: /fonts
-Sitemap: /sitemap.xml
+Sitemap: https://www.alextrandafir.com/sitemap.xml
