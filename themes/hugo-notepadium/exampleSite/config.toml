@@ -1,6 +1,7 @@
 baseURL = "https://example.com"
 title = "Notepadium"
 theme = "hugo-notepadium"
+description = "Alex Trandafir - blog about tech and stuff"
 copyright = "©2019 Notepadium."
 
 languageCode = "en"  # for the RSS generation
