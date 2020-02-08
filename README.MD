@@ -1,4 +1,4 @@
-# HUGO
+# Blog - tech and stuff
 
 Source code for https://www.alextrandafir.com
 
