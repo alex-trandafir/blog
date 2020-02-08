@@ -22,7 +22,7 @@ I'm a software developer based in Bucharest, Romania.
 
 I started this "blog" with no exact plan on where to go with it. I plan writing not just about development, but about any subject that interests me.
 
-You can find me via <a href="mailto:alex.trandafir90@gmail.com">email</a> or on <a href="https://www.linkedin.com/in/alexandru-trandafir-a3b9534b/">linkedin</a>
+You can find me via <a href="mailto:hi@alextrandafir.com">email</a> or on <a href="https://www.linkedin.com/in/alexandru-trandafir-a3b9534b/">linkedin</a>
 
 Opinions are my own. 
 
