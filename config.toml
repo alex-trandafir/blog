@@ -25,6 +25,7 @@ js = ["js/custom.js"]
 [params]
 #logo = "/img/logo.png"
 slogan = "Tech and stuff"
+favicon = "/images/favicon.ico"
 
 #seo
 enableRobotsTXT = true

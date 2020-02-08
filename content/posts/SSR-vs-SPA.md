@@ -28,7 +28,7 @@ keywords:
 <p>The biggest impact of performance when loading a website is the static data that is delivered with each website: html, css, images, fonts. In the SPA model these static resources are only sent once and then, with each new information the client gets from the server, it adjusts the html accordingly. </p>
 <!-- /wp:paragraph -->
 
-{{< figure src="https://res.cloudinary.com/livebashco/image/upload/v1580244341/excalidraw-2020128181339_1_y1vycx.png" title="Server Side Rendered vs Single Page Application" >}}
+{{< figure src="https://res.cloudinary.com/livebashco/image/upload/w_1000/v1580244341/excalidraw-2020128181339_1_y1vycx.png" title="Server Side Rendered vs Single Page Application" >}}
 
 
 <!-- wp:heading -->
@@ -52,7 +52,7 @@ keywords:
 <!-- /wp:paragraph -->
 
 
-{{< figure src="https://res.cloudinary.com/livebashco/image/upload/v1580937518/excalidraw-2020128181339_xq8xdx.png" title="FAQs mockup" >}}
+{{< figure src="https://res.cloudinary.com/livebashco/image/upload/w_1000/v1580937518/excalidraw-2020128181339_xq8xdx.png" title="FAQs mockup" >}}
 
 <!-- wp:paragraph -->
 <p>In the example above the server will return the whole web page in the case of server side rendering. That includes: questions header, question 1, question 2,  question 3, section of question 1, css, javascript, fonts. Due to <a href="https://www.codebyamir.com/blog/a-web-developers-guide-to-browser-caching">browser caching</a> some of these resources will not actually be retrieved again from the server, thus saving some load time and some web traffic, but that's an optimization perfomed by browsers. </p>
