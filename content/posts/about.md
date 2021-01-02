@@ -4,7 +4,7 @@ date: 2020-01-26T20:31:58+02:00
 draft: false
 unlisted: true
 single: false
-comments: true
+comments: false
 issueId: 1
 categories:
 - "Personal"
