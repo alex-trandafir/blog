@@ -19,6 +19,8 @@ keywords:
 
 ---
 
+<p>{{< le "I played a lot in the meantime with some of the concepts below (with swift, Kotlin and Java). I did change my mind on a lot of topics but decided to let the article as-is." >}}</p>
+
 <!-- wp:paragraph -->
 <p>This post is not intended to be a tutorial on how to write your first app. It's merely my experience and maybe a general guideline on what to expect if you're trying to do this for the first time. If you already wrote an IOS app this post is probably not for you. </p>
 <!-- /wp:paragraph -->
@@ -88,7 +90,7 @@ keywords:
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Optionals.</strong> Coming from Java and the world of "null" it was pretty complicated to wrap my head around Optionals. Theory is nice and all but once you start actually using <a href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html">optionals</a> you realise it introduces a lot of grey area. This is where I'm sure I did most of my mistakes, I had to force unwrap a lot of Optionals and that looks like an antipattern to me. It might be easy to read but at what cost?</p>
+<p><strong>Optionals.</strong> Coming from Java 7 and the world of "null" it was pretty complicated to wrap my head around Optionals. Theory is nice and all but once you start actually using <a href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html">optionals</a> you realise it introduces a lot of grey area. This is where I'm sure I did most of my mistakes, I had to force unwrap a lot of Optionals and that looks like an antipattern to me. It might be easy to read but at what cost? {{< le "Changed my mind, I like them now :D" >}} </p> 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

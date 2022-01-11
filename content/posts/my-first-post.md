@@ -1,5 +1,5 @@
 ---
-title: "Make a fool out of yourself!"
+title: "Climb mount stupid!"
 date: 2020-01-16T21:14:46+02:00
 draft: false
 categories:
@@ -18,10 +18,6 @@ keywords:
 
 
 
-<!-- Type text or HTML -->
-<!-- wp:paragraph -->
-<p>This is the thing that has always stood in the way for me. I've always looked at people I admired and questioned myself: why can't I do that? They seem so professional and confident. I would look like a fool compared to them. Then I started realising that, if I were to look back at that person (s)he was, at some point, a beginner. </p>
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>Any subject will eventually get complicated once you deep dive into it. The most recent subject I started exploring was coffee. Its pretty basic to make a cup of coffee. But if you go and explore the subject: the types of brewing, the variety of espresso machine models, grinders, recipes, bean origin, roasting, flavour, acidity, etc, you realise that even the most basic thing can become overwhelmingly complicated.</p>
@@ -42,10 +38,3 @@ keywords:
 <!-- wp:image {"sizeSlug":"large"} -->
 <figure class="wp-block-image size-large"><a href="https://twitter.com/realmikerother/status/1046793112679583745"><img src="https://pbs.twimg.com/media/Dob0YLHU4AEqYrG.jpg" alt=""/></a><figcaption>source: <a href="https://twitter.com/realmikerother/status/1046793112679583745">Mike Rother</a></figcaption></figure>
 <!-- /wp:image -->
-
-<!-- wp:heading -->
-<h2>Climb Mount Stupid: take the leap</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>This blog is my leap. </p>

@@ -14,6 +14,8 @@ keywords:
 - tech terms in simple words
 ---
 
+<p>* Article is part of <a style="background-color: rgba(12, 242, 143, 0.2)" class="nav item" href="/posts/tech-laymans/">Simple tech</a>category - a series of articles aimed at total beginners</p>
+
 <!-- wp:paragraph -->
 <p>An analogy might do the trick: Imagine going to the bakery in order to buy a bread. You'll have a client (you) buying (requesting?) the bread and a seller (server) giving you the bread. The internet is basically composed of gazillions of such transactions, each client requesting different types of bread and each bakery having its own recipe. </p>
 <!-- /wp:paragraph -->

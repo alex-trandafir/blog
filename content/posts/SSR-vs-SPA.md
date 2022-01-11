@@ -20,6 +20,7 @@ keywords:
 - tech terms in simple words
 ---
 
+<p>* Article is part of <a style="background-color: rgba(12, 242, 143, 0.2)" class="nav item" href="/posts/tech-laymans/">Simple tech</a>category - a series of articles aimed at total beginners</p>
 <!-- wp:paragraph -->
 <p>Most modern websites are now "single page application" (<a href="https://en.wikipedia.org/wiki/Single-page_application">SPA</a>). That means they are "rendered" once by the client and then only updated when something is modified. </p>
 <!-- /wp:paragraph -->
