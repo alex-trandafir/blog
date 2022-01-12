@@ -18,9 +18,9 @@ author: "Alex Trandafir"
 
 <img src="https://res.cloudinary.com/livebashco/image/upload/v1580068240/profile-picture_i94pl1.jpg"/>
 
-Based in Bucharest, Romania
+Software developer, sometimes leading teams. Based in Bucharest, Romania
 
-I like tech. And some other stuff.. 
+I write bad. I like tech. I enjoy building stuff. That's the gist of it. 
 
 Email: <a href="mailto:hi@alextrandafir.com">hi@alextrandafir.com</a> 
 LinkedIn:  <a href="https://www.linkedin.com/in/alexandru-trandafir-a3b9534b/">@alex-trandafir</a>

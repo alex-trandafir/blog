@@ -24,7 +24,7 @@ keywords:
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Somehow I ended up chickening out whenever I wanted to start something. I am well aware I'm going to look back at this someday and say "Man, I was so stupid" and that scares the shit out of me. The thing that scares me even more is if I won't do that. </p>
+<p>Somehow I ended up chickening out whenever I wanted to start something. I am hoping to look back at this someday and say "Man, I was so stupid". </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -38,3 +38,5 @@ keywords:
 <!-- wp:image {"sizeSlug":"large"} -->
 <figure class="wp-block-image size-large"><a href="https://twitter.com/realmikerother/status/1046793112679583745"><img src="https://pbs.twimg.com/media/Dob0YLHU4AEqYrG.jpg" alt=""/></a><figcaption>source: <a href="https://twitter.com/realmikerother/status/1046793112679583745">Mike Rother</a></figcaption></figure>
 <!-- /wp:image -->
+
+I might be on mount stupid. Or you might be on it. Nevertheless, enjoy the ride. 
