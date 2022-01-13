@@ -4,7 +4,6 @@ date: 2022-01-11T17:35:20+02:00
 draft: false
 categories:
 - "Personal"
-- "Startups"
 tags: 
 - "Review"
 description: "Data driver review"
