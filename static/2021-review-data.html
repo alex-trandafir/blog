@@ -1,0 +1,145 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+</body>
+
+<script>
+
+    const labels = [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+    ];
+    const data = {
+        labels: labels,
+        datasets: [
+            {
+                label: 'Steps',
+                backgroundColor: 'rgb(102,205,170)',
+                borderColor: 'rgb(102,205,170)',
+                yAxisID: "ysteps",
+                data: [6930,9830,8126,10945,11586,10444,11148,11614,10522,9564,9465,12051],
+            },
+            {
+                label: 'Gym',
+                backgroundColor: 'rgb(255,165,0)',
+                borderColor: 'rgb(255,165,0)',
+                yAxisID: "ygym",
+                data: [17,14,13,11,9,13,1,8,7,9,15,6]
+            },
+            {
+                label: 'Sleep',
+                backgroundColor: 'rgb(0,255,0)',
+                borderColor: 'rgb(0,255,0)',
+                yAxisID: "ysleep",
+                data: [6.65,6.58,6.62,6.60,6.77,6.72,6.87,6.35,6.82,6.75,6.85,7.02]
+            },
+            {
+                label: 'Weight',
+                backgroundColor: 'rgb(30,144,255)',
+                borderColor: 'rgb(30,144,255)',
+                yAxisID: "yweight",
+                data: [83.2,83,83.5,83.7,85,84.7,84.5,84.2,85,85.4,85.5,85.6]
+            },
+            {
+                label: 'Body fat',
+                backgroundColor: 'rgb(0,0,255)',
+                borderColor: 'rgb(0,0,255)',
+                yAxisID: "ybodyfat",
+                data: [16.5,16.2,16.4,16.7,16.9,17.4,17.2,16.9,17,17.3,17.7,18.3]
+            },
+            {
+                label: 'Money spent (%)',
+                backgroundColor: 'rgb(255,20,147)',
+                borderColor: 'rgb(255,20,147)',
+                yAxisID: "ymoney",
+                data: [0.77,0.65,0.61,0.59,0.76,0.92,1.02,1.31,0.69,1.40,1.81,1.49]
+            },
+            {
+                label: 'Rest BPM',
+                backgroundColor: 'rgb(128,128,0)',
+                borderColor: 'rgb(128,128,0)',
+                yAxisID: "ybpm",
+                data: [59,60,56,56,59,56,57,56,55,56,56,57]
+            }
+        ]
+    };
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {
+            responsive: true,
+            interaction: {
+                mode: 'index',
+                intersect: false,
+            },
+            stacked: false,
+            plugins: {
+                title: {
+                    display: true,
+                    text: '2021'
+                }
+            },
+            scales: {
+                ysteps: {
+                    type: 'linear',
+                    display: false,
+                    position: 'left',
+                },
+                ygym: {
+                    type: 'linear',
+                    display: false,
+                    position: 'left',
+                },
+                ysleep: {
+                    type: 'linear',
+                    display: false,
+                    position: 'left',
+                },
+                yweight: {
+                    type: 'linear',
+                    display: false,
+                    position: 'left',
+                },
+                ybodyfat: {
+                    type: 'linear',
+                    display: false,
+                    position: 'left',
+                },
+                ymoney: {
+                    type: 'linear',
+                    display: false,
+                    position: 'left',
+                },
+                ybpm: {
+                    type: 'linear',
+                    display: true,
+                    position: 'left',
+                }
+            }
+        },
+    };
+
+    var myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+
+</script>
